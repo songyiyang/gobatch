@@ -3,7 +3,7 @@ GoBatch
 
 [![Build Status](https://travis-ci.org/MasterOfBinary/gobatch.svg?branch=master)](https://travis-ci.org/MasterOfBinary/gobatch)
 [![Coverage Status](https://coveralls.io/repos/github/MasterOfBinary/gobatch/badge.svg?branch=master)](https://coveralls.io/github/MasterOfBinary/gobatch?branch=master)
-[![GoDoc](https://godoc.org/github.com/MasterOfBinary/gobatch?status.svg)](https://godoc.org/github.com/MasterOfBinary/gobatch)
+[![GoDoc](https://godoc.org/github.com/songyiyang/gobatch?status.svg)](https://godoc.org/github.com/songyiyang/gobatch)
 
 GoBatch is a batch processing library for Go. The data reader and processor are
 implementations of `batch.Source` and `batch.Processor`, respectively. The
@@ -42,7 +42,7 @@ handled.
 Documentation
 -------------
 
-See the [GoDocs](https://godoc.org/github.com/MasterOfBinary/gobatch) for documentation
+See the [GoDocs](https://godoc.org/github.com/songyiyang/gobatch) for documentation
 and examples.
 
 Installation
@@ -50,7 +50,7 @@ Installation
 
 To download, run
 
-    go get github.com/MasterOfBinary/gobatch
+    go get github.com/songyiyang/gobatch
 
 GoBatch doesn't require any dependencies except Go 1.7 or later and the
 standard library.
@@ -58,7 +58,7 @@ standard library.
 Examples
 --------
 
-See the [GoDocs](https://godoc.org/github.com/MasterOfBinary/gobatch) for examples.
+See the [GoDocs](https://godoc.org/github.com/songyiyang/gobatch) for examples.
 
 License
 -------

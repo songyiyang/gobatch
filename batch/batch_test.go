@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/MasterOfBinary/gobatch/batch"
-	"github.com/MasterOfBinary/gobatch/processor"
-	"github.com/MasterOfBinary/gobatch/source"
+	. "github.com/songyiyang/gobatch/batch"
+	"github.com/songyiyang/gobatch/processor"
+	"github.com/songyiyang/gobatch/source"
 )
 
 type sourceFromSlice struct {

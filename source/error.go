@@ -3,7 +3,7 @@ package source
 import (
 	"context"
 
-	"github.com/MasterOfBinary/gobatch/batch"
+	"github.com/songyiyang/gobatch/batch"
 )
 
 // Error is a Source that returns an error and then closes immediately.

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/MasterOfBinary/gobatch/batch"
+	"github.com/songyiyang/gobatch/batch"
 )
 
 func TestChannelSource_Read(t *testing.T) {
