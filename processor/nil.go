@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/MasterOfBinary/gobatch/batch"
+	"github.com/songyiyang/gobatch/batch"
 )
 
 // Nil is a Processor that discards all data after a specified duration.

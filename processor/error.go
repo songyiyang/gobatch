@@ -3,7 +3,7 @@ package processor
 import (
 	"context"
 
-	"github.com/MasterOfBinary/gobatch/batch"
+	"github.com/songyiyang/gobatch/batch"
 )
 
 // Error returns a Processor that returns an error while processing.

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/MasterOfBinary/gobatch/batch"
+	"github.com/songyiyang/gobatch/batch"
 )
 
 // Nil is a Source that doesn't read any data. Instead it closes the

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/MasterOfBinary/gobatch/batch"
-	"github.com/MasterOfBinary/gobatch/source"
+	"github.com/songyiyang/gobatch/batch"
+	"github.com/songyiyang/gobatch/source"
 )
 
 // printProcessor is a Processor that prints items in batches.

@@ -3,7 +3,7 @@ package source
 import (
 	"context"
 
-	"github.com/MasterOfBinary/gobatch/batch"
+	"github.com/songyiyang/gobatch/batch"
 )
 
 // Channel is a Source that reads from input until it is closed.
@@ -13,7 +13,7 @@ type Channel struct {
 }
 
 // Read reads from items until the input channel is closed.
-func (s *Channel) Read(ctx context.Context, ps* batch.PipelineStage) {
+func (s *Channel) Read(ctx context.Context, ps *batch.PipelineStage) {
 	defer ps.Close()
 
 	out := ps.Output
